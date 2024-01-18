@@ -18,7 +18,7 @@ class HomeView extends GetView<HomeController> {
           children: [
             ElevatedButton(onPressed: () => Get.toNamed(Routes.BOOK),
                 child: const Text("List Buku")),
-            ElevatedButton(onPressed: () => Get.toNamed(Routes.LOGIN),
+            ElevatedButton(onPressed: () => Get.toNamed(Routes.PEMINJAMAN),
                 child: const Text("List Pinjam"))
           ],
         ),
